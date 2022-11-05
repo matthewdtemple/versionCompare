@@ -34,10 +34,9 @@ public class compareVersion {
             for (int i = 0; i < sizeDifference; i++) {
                 intv2.add(0);
             }
-            // compare integers and return appropriate value
         }
 
-
+        // compare integers and return appropriate value
         int comparedResult = 25; //test to see if logic changes this value
             for (int i = 0; i < intv1.size(); i++) {
                 if (Arrays.equals(intv1.toArray(),intv2.toArray())) {
@@ -58,6 +57,6 @@ public class compareVersion {
     }
 
     public static void main (String[]args){
-        System.out.println(versionComparison("3.0.1.9", "3.0.1.0.0.0"));
+        System.out.println(versionComparison("3.0.1.8", "3.0.1.0.0.9"));
     }
 }
